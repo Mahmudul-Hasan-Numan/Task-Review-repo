@@ -3,7 +3,8 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+    margin-left: 5%;
 }
 h3{
     font-size: 18px;
@@ -11,7 +12,7 @@ h3{
 .name{
     color:darkred;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 5%;
 }
@@ -40,4 +41,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gold;
+}
+.experiance-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    border-right: hotpink;
+    box-shadow: 10px 10px 40px yellowgreen;
+}
+#web-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, Green);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    color: rgb(32, 22, 173);
 }
